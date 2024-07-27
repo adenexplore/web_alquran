@@ -1,0 +1,28 @@
+{{HEADER}}
+<div class="header">
+    <h2 class="page-name">{{PAGE_NAME}}</h2>
+    <h1 class="surah-name">Daftar Surah dalam Al-Quran</h1>
+    <h2 class="surah-count">114 Surah</h2>
+</div>
+
+{{MENU}}
+
+<!-- Begin each surah -->
+<div class="ayah-wrapper">
+    <div class="search-wrapper">
+        <form>
+            <label>
+                <input id="search-keywords" class="search-keywords" type="text" placeholder="Cari nama surah" title="Cari nama surah">
+            </label>
+        </form>
+    </div>
+
+    <div class="surah-list">
+        <div>
+            <ul>
+                {{SURAH_INDEX}}
+            </ul>
+        </div>
+    </div>
+</div>
+{{FOOTER}}
